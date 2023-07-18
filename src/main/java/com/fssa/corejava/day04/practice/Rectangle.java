@@ -5,6 +5,7 @@ public class Rectangle extends Polygon {
 	protected double length;
 	protected double breadth;
 	
+	
 	public Rectangle(double length, double breadth) throws Exception {
 		super(4);
 		if(length <= 0 || breadth <= 0) {

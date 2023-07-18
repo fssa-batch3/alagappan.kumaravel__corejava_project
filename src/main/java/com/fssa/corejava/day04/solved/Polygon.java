@@ -3,6 +3,10 @@ package com.fssa.corejava.day04.solved;
 public abstract class Polygon {
 	protected int numberOfSides;
 	
+	public Polygon() {
+		
+	}
+	
 	public Polygon (int numberOfSides) throws Exception {
 		if (numberOfSides < 3) {
 			throw new Exception("Invalid number of sides to create a polygon ");

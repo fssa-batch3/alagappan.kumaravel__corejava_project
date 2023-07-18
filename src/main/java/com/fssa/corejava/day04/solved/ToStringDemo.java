@@ -8,6 +8,6 @@ public class ToStringDemo {
 		acct1.setName("Naresh");
 		acct1.setBalance(1000);
 		
-		System.out.println(acct1);
+		System.out.println(acct1);	
 	}
 }
