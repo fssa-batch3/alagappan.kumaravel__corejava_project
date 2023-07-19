@@ -21,6 +21,7 @@ public class Task {
     }
     
     public static boolean findTaskByName(String name, ArrayList<Task> tasks) {
+//    	tasks.contains(e () ->e.getTaskName() == name);
         for (Task task : tasks) {
             if (task.getTaskName().equals(name)) {
                 return true;
