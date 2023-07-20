@@ -18,6 +18,8 @@ public class SeperateUser {
         }
         
         System.out.println(nameCounts);
+        
+        System.out.println(nameCounts.keySet());
 
         // Print the count for each name
         for (String name : nameCounts.keySet()) {

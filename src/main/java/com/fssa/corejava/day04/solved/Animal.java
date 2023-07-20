@@ -1,5 +1,7 @@
 package com.fssa.corejava.day04.solved;
 
+import java.util.Arrays;
+
 public class Animal {
 	private int age;
 
